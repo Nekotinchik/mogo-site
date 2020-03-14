@@ -1,0 +1,591 @@
+/* шрифты
+font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive;
+*/
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+body li{
+
+	list-style: none;
+}
+
+
+header{
+	background: url(../img/header.jpg) no-repeat center top / cover ;
+	height: 100vh;
+	width: 1920px;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1{
+	margin: 0;
+}
+
+.container{
+    width: 1200px;
+    height: 750px;
+    margin-left: 360px;
+    margin-right: 360px; 
+    	
+}
+
+.head {
+	width: 1200px;
+	margin-left: 360px;
+    margin-right: 360px;
+}
+
+.logo {
+  margin-top: 30px;
+  float: left;
+}
+
+.heder-text1{
+    margin: 0;
+    padding-top: 237px;
+	font-size: 72px;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	color: #fff;
+}
+
+h1{
+	margin: 0;
+	padding-top: 65px;
+	font-size: 150px;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+    color: #fff;
+}
+
+nav{
+    float: right;
+}
+
+.menu{
+	padding: 0;
+    margin: 0;
+    display: block;
+    margin-top: 40px;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 56px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.menu li a:hover {
+	color: #fce38a;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.line {
+	height:3px;
+	width:60px;
+	margin-left: 570px;
+	margin-right: 570px;
+	margin-bottom: 30px;
+	margin-top: 30px; 
+	border-top:3px solid #ffffff;
+	padding-left:10px
+	margin: 0 auto;
+
+}
+
+.button	{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 520px;
+	margin-top: 150px;
+    border: 4px solid #fff;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    width: 160px;
+    margin-bottom: 244px;
+    
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+
+}
+.button:hover{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 520px;
+	margin-top: 126px;
+    border: 4px solid #fce38a;
+    font-size: 14px;
+    color: #fce38a;
+    display: block;
+    width: 160px;
+    
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.shop {
+	background: url(../img/SHOPPING.png)  no-repeat 50% 50%;
+	display: block;
+	width: 20px;
+	height: 20px;
+
+}
+
+
+.shop:hover {
+	background: url(../img/shop-hover.png)  no-repeat 50% 50%;
+    display: block;
+
+}
+.search{
+	background: url(../img/search.png) no-repeat 50% 50%;
+    display: block;
+	width: 20px;
+	height: 20px;
+}
+
+.search:hover {
+	background: url(../img/search-hover.png) no-repeat 50% 50%;
+    display: block;
+
+}
+
+
+.container h3 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 90px;
+
+
+}
+
+.STORY h2 {
+	font-size: 30px;
+	font-family: 'Montserrat',bold;
+	text-align: center;
+	margin-top: 25px;
+    font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.STORY h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 90px;
+	margin-left: 140px;
+	margin-right: 140px;
+	text-decoration: none;
+	text-transform: uppercase;
+    color: #999999;
+}
+
+
+.blocks {
+	margin-top: 80px;
+
+}
+
+.blocks img {
+	float: left;
+
+
+
+}
+
+.blocks img:nth-child(2) {
+   	margin-left: 30px;
+}
+
+.blocks img:last-child {
+	float: right;
+
+}
+
+
+.container2 {
+	padding: 0;
+	margin: 0;
+	height: 270px;
+	width: 1920px;
+    background-color: #95e1d3;
+}
+
+.numbers ul {
+	display: inline;
+	margin-left: 360px;
+	margin-right: 360px;
+	padding: 0;
+	margin-top: 89px;
+
+}
+
+
+.numbers ul li {
+	display: inline-block; 
+	font-size: 72px;
+	color: #ffffff;
+	font-family: Montserrat;
+	margin-bottom: 1px;
+	margin-top: 89px;
+	margin-left: 120px;
+
+	
+}
+
+
+.text ul p {
+	display: inline-block;
+	align-content: center; 
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Montserrat;
+	margin-bottom: 0px;
+	margin-top: 2px;
+
+}
+
+.text1 {
+	margin-left: 400px;
+	margin-bottom: 90px;
+	font-weight: 700;
+}
+
+.text2 {
+	margin-left: 79px;
+	margin-bottom: 90px;
+}
+
+.text3 {
+	margin-left: 93px;
+	margin-bottom: 90px;
+}
+
+.text4 {
+	margin-left: 85px;
+	margin-bottom: 90px;
+}
+
+.text5 {
+	margin-left: 115px;
+	margin-bottom: 90px;
+}
+
+
+
+.container3 ul li:first-child{
+    margin: 0;
+    padding-top: 30px;
+	font-size: 30px;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+
+}
+
+.container3 ul li:last-child{
+	margin: 0;
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+
+}
+
+.container3 ul li {
+	list-style: none;
+}
+
+.all-blocks h4 {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+}
+
+
+
+.block-verx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+
+
+}
+
+
+
+.block-text p{
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	color: #a6a6a6;
+}
+
+.block-text h4 {
+	margin-left: 100px;
+	margin-top: -38px;
+    
+}
+
+.block-text p {
+	margin-left: 100px;
+	margin-top: -10px;
+    
+}
+
+.block-text img {
+	margin-left: 60px;
+    
+}
+
+.block-niz {
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+
+
+}
+
+.block-text2 p{
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	color: #a6a6a6;
+}
+
+.block-text2 h4 {
+	margin-left: 100px;
+	margin-top: -38px;
+    
+}
+
+.block-text2 p {
+	margin-left: 100px;
+	margin-top: -10px;
+    
+}
+
+.block-text2 img {
+	margin-left: 60px;
+	margin-right: 90px;
+    
+}
+
+.seo {
+	margin-left: 48px;
+}
+
+.css-html {
+	margin-left: 45px;
+}
+
+.digital {
+	margin-left: 37px;	
+}
+
+.text-design ul {
+	list-style: none;
+}
+
+
+.section4 {
+	margin: 0;
+	background-image:  url(../img/block4.png);
+	width: 1920px;
+	height: 900px;
+}
+
+.text-design ul li:first-child  {
+	text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.text-design ul li:last-child {
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 30px;
+	margin-top: 30px;
+	
+}
+
+.section5 {
+	height: 900px;
+}
+
+
+.text-service ul li:first-child  {
+	text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.text-service ul li:nth-child(2) {
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 30px;
+	margin-top: 30px;
+	
+}
+
+.text-service p {
+	color: #999999;
+	text-align: center;
+	margin-top: 70px;
+
+}
+
+.photo_service {
+	width: 570px;
+	height: 380px;
+	margin-top: 100px;
+	float: left;
+}
+
+
+.photography_service h5 {
+	margin-left: 50px;
+	margin-top: -25px;
+
+
+
+}
+
+.creativity_service h5{
+	margin-left: 50px;
+	margin-top: -25px;
+	font-weight: 700;	
+}
+
+.design_service h5 {
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+.photography_service img {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+
+
+}
+
+.creativity_service img{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.design_service img {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.photography_service {
+	float: left;
+	margin-top: 100px;
+	margin-left: 25px;
+	border: 1px solid #e5e5e5;
+	height: 240px;
+	width: 600px;
+
+}
+
+.creativity_service {
+	float: left;
+	height: 60px;
+	width: 600px;
+	margin-top: 7px;
+	margin-left: 25px;
+	border: 1px solid  #e5e5e5;
+}
+
+.design_service {
+	float: left;
+	height: 60px;
+	width: 600px;
+	margin-top: 7px;
+	margin-left: 25px;
+	border: 1px solid  #e5e5e5;
+}
+
+.section5 {
+    width: 1200px;
+    height: 900px;
+    margin-left: 360px;
+    margin-right: 360px; 
+    	
+}
+
+.Lorem {
+	font-size: 15px;
+	font-family: 'Roboto',sans-serif;
+	color: #a6a6a6;
+	margin-left: 20px;
+}
+
+.container6 img{
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 470px;
+
+}
+
+.section6 {
+	height: 290px;
+	width: 1920px;
+	background: #f8f8f8
+}
+
+.container6 p{
+	float: right;
+	font-size: 24px;
+	font-family: 'Roboto',sans-serif;
+	color: #a6a6a6;
+	margin-right: 400px;
+	margin-top: 88px;
+}
+
+.section7 {
+	height: 1050px;
+	width: 1200px;
+	margin-left: 360px;
+    margin-right: 360px; 
+	border: 3px solid #e5e5e5;
+}
+
